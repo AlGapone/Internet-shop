@@ -13,7 +13,7 @@ $(function(){
     function positionCenter(elem) {
         elem.css({
             marginTop: "-"  + elem.height() / 2 + "px",
-            marginLeft: "-" + elem.width()  / 2 + "px",
+            marginLeft: "-" + elem.width()  / 2 + "px"
 
         });
     }

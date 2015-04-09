@@ -992,8 +992,6 @@ nav ul li a:hover{
 /*POP UP WINDOW*/
 .write-us{
     position: fixed;
-    /*top:35.5%;*/
-    /*left: 33.4%;*/
     top:50%;
     left:50%;
     z-index: 9999;
@@ -1003,7 +1001,7 @@ nav ul li a:hover{
     border-top:5px solid #ee3643;
     box-shadow:0 20px 40px rgba(0,1,1, 0.7);
     overflow: hidden;
-    margin:-215px 0 0 -310px;
+
     display: none;
 }
 .write-us-form{
