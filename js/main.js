@@ -25,6 +25,10 @@ $(function(){
         $(".account-menu").slideToggle(300);
     });
 
+    $(window).resize(function(){
+    	$("body *").removeAttr("style");
+    });
+
     $(".drop-down-menu").on("click", function(){
         $("nav ul").slideToggle(300);
     });
